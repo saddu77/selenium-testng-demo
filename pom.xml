@@ -78,6 +78,9 @@
           <systemPropertyVariables>
             <headless>${headless}</headless>
           </systemPropertyVariables>
+          <jsonFiles>
+            <param>**/*.json</param>
+          </jsonFiles>
         </configuration>
       </plugin>
     </plugins>
