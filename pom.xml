@@ -21,6 +21,19 @@
       <version>${cucumber.version}</version>
       <scope>test</scope>
     </dependency>
+      <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>7.18.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.18.1</version>
+    <scope>test</scope>
+</dependency>
 
     <!-- JUnit 5 platform engine for Cucumber -->
     <dependency>
@@ -37,6 +50,18 @@
       <version>${cucumber.version}</version>
       <scope>test</scope>
     </dependency>
+
+      <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.23.0</version>
+  </dependency>
+    <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.18.1</version>
+    <scope>test</scope>
+</dependency>
 
     <!-- Selenium 4 (Selenium Manager will fetch drivers automatically) -->
     <dependency>
